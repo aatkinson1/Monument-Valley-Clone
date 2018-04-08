@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/_Scenes/Start Menu.unity
+=======
+- path: Assets/_Scenes/Testing Level 1.unity
+>>>>>>> cbec1ff7b5266837543486367077979801ec1625
   isLoaded: 1
   isActive: 1
