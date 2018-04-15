@@ -32,3 +32,9 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+*.dwlt
+Monument-Valley/Library/metadata/00/00000000000000003000000000000000
+Monument-Valley/Library/LastSceneManagerSetup.txt
+Monument-Valley/Library/InspectorExpandedItems.asset
+Monument-Valley/Library/CurrentMaximizeLayout.dwlt
+Monument-Valley/Library/CurrentLayout.dwlt
