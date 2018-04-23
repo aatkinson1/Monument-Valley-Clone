@@ -17,6 +17,13 @@ public class MenuScript: MonoBehaviour
 	public Button exitText;
 	public Button backText;
 
+    // Options Menu Buttons
+    public Button sound;
+    public Button tutSkip;
+    public Button gender;
+    public Button editCharacter;
+    public Button resetLevels;
+
 	void Start ()
 	{
 		mainMenu = mainMenu.GetComponent<Canvas> ();
@@ -25,6 +32,13 @@ public class MenuScript: MonoBehaviour
 		startText = startText.GetComponent<Button> ();
 		optionsText = optionsText.GetComponent<Button> ();
 		exitText = exitText.GetComponent<Button> ();
+
+        // Initialize Options menu buttons
+        sound = sound.GetComponent<Button>();
+        tutSkip = tutSkip.GetComponent<Button>();
+        gender = gender.GetComponent<Button>();
+        editCharacter = editCharacter.GetComponent<Button>();
+        resetLevels = resetLevels.GetComponent<Button>();
 
 		// Disable exit and options menu
 		optionsMenu.enabled = false;
@@ -80,4 +94,9 @@ public class MenuScript: MonoBehaviour
 		// Load the first level
 		SceneManager.LoadScene ("Level 1");
 	}
+
+    public void skipTutorial()
+    {
+        SceneManager.LoadScene("Level 2");
+    }
 }

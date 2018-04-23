@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4465934, g: 0.49642956, b: 0.5748249, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1076,6 +1076,11 @@ MonoBehaviour:
   optionsText: {fileID: 1967962619}
   exitText: {fileID: 286390860}
   backText: {fileID: 1321320505}
+  sound: {fileID: 2033719437}
+  tutSkip: {fileID: 1796013569}
+  gender: {fileID: 1771650623}
+  editCharacter: {fileID: 965821858}
+  resetLevels: {fileID: 1552921270}
 --- !u!1 &1136443828
 GameObject:
   m_ObjectHideFlags: 0
@@ -1231,7 +1236,7 @@ GameObject:
   - component: {fileID: 1253570619}
   - component: {fileID: 1253570618}
   m_Layer: 5
-  m_Name: OPtions Title
+  m_Name: Options Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1549,7 +1554,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 969887325}
-        m_MethodName: BackPress
+        m_MethodName: LoadLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1865,7 +1870,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 969887325}
-        m_MethodName: BackPress
+        m_MethodName: skipTutorial
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
