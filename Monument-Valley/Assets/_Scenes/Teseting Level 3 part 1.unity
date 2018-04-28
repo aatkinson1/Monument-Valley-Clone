@@ -122,6 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 20812743}
   - component: {fileID: 20812744}
+  - component: {fileID: 20812742}
   m_Layer: 0
   m_Name: Slider 1
   m_TagString: Untagged
@@ -129,6 +130,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &20812742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 20812741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1ebf93ec23cb2a4cb2e40dfafaa63e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yPoint: -2.29
+  zPoint: 16.76
+  xMinRange: 9.97
+  xMaxRange: 20.97
+  rangeLength: 11
 --- !u!4 &20812743
 Transform:
   m_ObjectHideFlags: 0
@@ -136,7 +153,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 20812741}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.97, y: -2.29, z: 16.76}
+  m_LocalPosition: {x: 17.97, y: -2.29, z: 16.76}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 681752816}
@@ -253,6 +270,7 @@ GameObject:
   - component: {fileID: 121348813}
   - component: {fileID: 121348812}
   - component: {fileID: 121348811}
+  - component: {fileID: 121348815}
   m_Layer: 0
   m_Name: Cube (17)
   m_TagString: Untagged
@@ -326,6 +344,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &121348815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 121348810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1ebf93ec23cb2a4cb2e40dfafaa63e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yPoint: 0
+  zPoint: 0
+  xMinRange: 0
+  xMaxRange: 0
+  rangeLength: 0
 --- !u!1 &248989934
 GameObject:
   m_ObjectHideFlags: 0
@@ -1701,7 +1735,7 @@ Light:
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
