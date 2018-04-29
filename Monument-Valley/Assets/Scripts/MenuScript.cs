@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class MenuScript: MonoBehaviour
+public class MenuScript : MonoBehaviour
 {
 	// Canvas
 	public Canvas mainMenu;
@@ -85,7 +85,7 @@ public class MenuScript: MonoBehaviour
 	public void ExitGame()
 	{
 		// Exit game
-		Application.Quit ();
+		Application.Quit();
 	}
 
 	// Function to load first level
