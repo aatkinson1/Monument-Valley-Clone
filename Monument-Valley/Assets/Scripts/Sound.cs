@@ -13,7 +13,7 @@ public class Sound : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         music = GameObject.FindObjectOfType<Music>();
-        updateIcon();
+        UpdateIcon();
 	}
 	
 	// Update is called once per frame
@@ -21,13 +21,13 @@ public class Sound : MonoBehaviour {
 		
 	}
 
-    public void pauseMusic()
+    public void PauseMusic()
     {
         music.ToggleSound();
-        updateIcon();
+        UpdateIcon();
     }
 
-    void updateIcon()
+    void UpdateIcon()
     {
         if(PlayerPrefs.GetInt("Muted", 0) == 0)
         {
