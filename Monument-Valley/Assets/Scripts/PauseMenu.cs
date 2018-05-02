@@ -23,13 +23,13 @@ public class PauseMenu : MonoBehaviour
 		{
 			PauseMenuCanvas.gameObject.SetActive (true);
 			Time.timeScale = 0;
-			Player.GetComponent<SimpleCarController>().enabled = false;
+			Player.GetComponent<PlayerController>().enabled = false;
 		} 
 		else 
 		{
 			PauseMenuCanvas.gameObject.SetActive (false);
 			Time.timeScale = 1;
-			Player.GetComponent<SimpleCarController>().enabled = true;
+			Player.GetComponent<PlayerController>().enabled = true;
 		}
 	}
 
