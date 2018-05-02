@@ -18,7 +18,7 @@ public class MenuScript : MonoBehaviour
 	public Button backText;
 
     // Options Menu Buttons
-    public Button sound;
+    public Toggle sound;
     public Button tutSkip;
     public Button gender;
     public Button editCharacter;
@@ -34,7 +34,7 @@ public class MenuScript : MonoBehaviour
 		exitText = exitText.GetComponent<Button> ();
 
         // Initialize Options menu buttons
-        sound = sound.GetComponent<Button>();
+        // sound = sound.GetComponent<Button>(); // using toggle now
         tutSkip = tutSkip.GetComponent<Button>();
         gender = gender.GetComponent<Button>();
         editCharacter = editCharacter.GetComponent<Button>();
