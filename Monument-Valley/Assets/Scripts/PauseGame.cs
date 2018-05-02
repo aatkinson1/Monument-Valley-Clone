@@ -1,13 +1,34 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PauseGame : MonoBehaviour {
 
+   
     public Transform canvas;
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Canvas
+    public Canvas pauseMenu;
+
+    // Buttons
+    public Button resume;
+    public Button quit;
+    public Button back;
+
+    void Start()
+    {
+        //Initialize pause menu
+        pauseMenu = pauseMenu.GetComponent<Canvas>();
+
+        // Initialize pause menu buttons
+        resume = resume.GetComponent<Button>();
+        quit = quit.GetComponent<Button>();
+        back = back.GetComponent<Button>();
+    }
+
+    // Update is called once per frame
+    void Update () {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             Pause();
@@ -29,11 +50,18 @@ public class PauseGame : MonoBehaviour {
         }
     }
 
-    public void ResumeGame()
+    public void ResumePress()
     {
-        canvas.gameObject.SetActive(false);
+        pauseMenu.enabled = false;
         Time.timeScale = 1;
-        Debug.Log("Player pressed resume");
+        Debug.Log("Resume pressed");
+    }
+
+    public void BackPress()
+    {
+        pauseMenu.enabled = false;
+        Time.timeScale = 1;
+        Debug.Log("Back pressed");
     }
 
     public void QuitGame()
