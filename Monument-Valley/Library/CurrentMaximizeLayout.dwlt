@@ -25,7 +25,11 @@ MonoBehaviour:
   m_MaxSize: {x: 12008, y: 8042}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 1967
+=======
+  controlID: 1329
+>>>>>>> 8af7f1f27b3fe18cefb3daa46d76daa1f708f0d3
 =======
   controlID: 1329
 >>>>>>> 8af7f1f27b3fe18cefb3daa46d76daa1f708f0d3
@@ -125,6 +129,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 965
     height: 947
   m_MinSize: {x: 202, y: 442}
@@ -132,12 +137,17 @@ MonoBehaviour:
   vertical: 1
   controlID: 1968
 =======
+=======
+>>>>>>> 8af7f1f27b3fe18cefb3daa46d76daa1f708f0d3
     width: 724
     height: 739
   m_MinSize: {x: 202, y: 421}
   m_MaxSize: {x: 4002, y: 8021}
   vertical: 1
   controlID: 1330
+<<<<<<< HEAD
+>>>>>>> 8af7f1f27b3fe18cefb3daa46d76daa1f708f0d3
+=======
 >>>>>>> 8af7f1f27b3fe18cefb3daa46d76daa1f708f0d3
 --- !u!114 &4
 MonoBehaviour:
@@ -348,7 +358,11 @@ MonoBehaviour:
   m_MaxSize: {x: 4004, y: 8042}
   vertical: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 1847
+=======
+  controlID: 1412
+>>>>>>> 8af7f1f27b3fe18cefb3daa46d76daa1f708f0d3
 =======
   controlID: 1412
 >>>>>>> 8af7f1f27b3fe18cefb3daa46d76daa1f708f0d3
@@ -407,9 +421,15 @@ MonoBehaviour:
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedIDs: 422b0000
     m_LastClickedID: 11074
     m_ExpandedIDs: 52eeffff48fbffff000000004c2b0000
+=======
+    m_SelectedIDs: 002e0000
+    m_LastClickedID: 0
+    m_ExpandedIDs: 3af6ffff9efbffff00000000
+>>>>>>> 8af7f1f27b3fe18cefb3daa46d76daa1f708f0d3
 =======
     m_SelectedIDs: 002e0000
     m_LastClickedID: 0
@@ -453,6 +473,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 417
     width: 321
     height: 530
@@ -460,12 +481,17 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_ActualView: {fileID: 13}
 =======
+=======
+>>>>>>> 8af7f1f27b3fe18cefb3daa46d76daa1f708f0d3
     y: 325
     width: 379
     height: 414
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
+<<<<<<< HEAD
+>>>>>>> 8af7f1f27b3fe18cefb3daa46d76daa1f708f0d3
+=======
 >>>>>>> 8af7f1f27b3fe18cefb3daa46d76daa1f708f0d3
   m_Panes:
   - {fileID: 13}
@@ -512,6 +538,7 @@ MonoBehaviour:
     m_SearchArea: 0
     m_Folders:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Scripts
 =======
     - Assets/Models/Characters/Red Character
@@ -530,6 +557,21 @@ MonoBehaviour:
     m_LastClickedID: 10234
     m_ExpandedIDs: 00000000f027000000ca9a3bffffff7f
 =======
+  - Assets/Models/Characters/Red Character
+  m_LastFoldersGridSize: 16
+  m_LastProjectPath: /Users/iggy/Documents/GitHub/Monument-Valley-Clone/Monument-Valley
+  m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: a4270000
+    m_LastClickedID: 10148
+    m_ExpandedIDs: 00000000742700000428000044280000062c000000ca9a3bffffff7f
+>>>>>>> 8af7f1f27b3fe18cefb3daa46d76daa1f708f0d3
+=======
+    - Assets/Models/Characters/Red Character
+  m_ViewMode: 1
+  m_StartGridSize: 16
+  m_LastFolders:
   - Assets/Models/Characters/Red Character
   m_LastFoldersGridSize: 16
   m_LastProjectPath: /Users/iggy/Documents/GitHub/Monument-Valley-Clone/Monument-Valley
@@ -568,7 +610,11 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000f027000000ca9a3bffffff7f
+=======
+    m_ExpandedIDs: 000000007427000044280000062c000000ca9a3bffffff7f
+>>>>>>> 8af7f1f27b3fe18cefb3daa46d76daa1f708f0d3
 =======
     m_ExpandedIDs: 000000007427000044280000062c000000ca9a3bffffff7f
 >>>>>>> 8af7f1f27b3fe18cefb3daa46d76daa1f708f0d3
@@ -597,8 +643,13 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 422b0000
     m_LastClickedInstanceID: 11074
+=======
+    m_SelectedInstanceIDs: 9a270000
+    m_LastClickedInstanceID: 10138
+>>>>>>> 8af7f1f27b3fe18cefb3daa46d76daa1f708f0d3
 =======
     m_SelectedInstanceIDs: 9a270000
     m_LastClickedInstanceID: 10138
@@ -629,8 +680,13 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ScrollPosition: {x: 0, y: 14}
     m_GridSize: 64
+=======
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 16
+>>>>>>> 8af7f1f27b3fe18cefb3daa46d76daa1f708f0d3
 =======
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
