@@ -10,12 +10,12 @@ public class PauseGame : MonoBehaviour {
 	void Update () {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            pauseGame();
+            Pause();
         }
     }
 
     // Pauses the game
-    public void pauseGame()
+    public void Pause()
     {
         if (canvas.gameObject.activeInHierarchy == false)
         {
@@ -29,8 +29,16 @@ public class PauseGame : MonoBehaviour {
         }
     }
 
-    public void quitGame()
+    public void ResumeGame()
+    {
+        canvas.gameObject.SetActive(false);
+        Time.timeScale = 1;
+        Debug.Log("Player pressed resume");
+    }
+
+    public void QuitGame()
     {
         Application.Quit();
+        Debug.Log("Player pressed quit");
     }
 }
