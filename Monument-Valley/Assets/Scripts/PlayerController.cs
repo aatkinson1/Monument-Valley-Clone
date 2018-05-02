@@ -12,6 +12,8 @@ public class PlayerController : MonoBehaviour
 	[Range(0,1)]
 	public float airControlPercent;
 
+	public int keyCount = 0;
+
 	public float turnSmoothTime = 0.2f;
 	float turnSmoothVelocity;
 
@@ -92,5 +94,14 @@ public class PlayerController : MonoBehaviour
 			return float.MaxValue;
 		
 		return smoothTime / airControlPercent;
+	}
+
+	void OnTriggerEnter(Collider other)
+	{
+		if (other.gameObject.CompareTag ("Key1")) 
+		{
+			other.gameObject.SetActive (false);
+			keyCount += 1;
+		}
 	}
 }

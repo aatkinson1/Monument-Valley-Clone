@@ -4,4 +4,19 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Start Menu.unity
+    guid: 0b67192afb5924b359b55e5920c03646
+  - enabled: 1
+    path: Assets/Scenes/Level 1.unity
+    guid: 3a2c7cd28ef14427bb093abdad79e7a3
+  - enabled: 1
+    path: Assets/Scenes/Level 2.unity
+    guid: 2ebaf82c04a75b8418765f05ec9786bd
+  - enabled: 1
+    path: Assets/Scenes/Level 2 - Guess Room.unity
+    guid: b1a04ef1f421440e9a0fb44e43251732
+  - enabled: 1
+    path: Assets/Scenes/Level 3.unity
+    guid: d7add87550a264d289fba298934a9404

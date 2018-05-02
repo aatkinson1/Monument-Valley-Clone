@@ -92,11 +92,11 @@ public class MenuScript : MonoBehaviour
 	public void LoadLevel()
 	{
 		// Load the first level
-		SceneManager.LoadScene ("Level 1");
+		SceneManager.LoadScene (1);
 	}
 
     public void skipTutorial()
     {
-        SceneManager.LoadScene("Level 2");
+        SceneManager.LoadScene(2);
     }
 }
