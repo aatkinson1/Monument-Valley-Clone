@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PauseGame : MonoBehaviour {
 
@@ -67,6 +68,6 @@ public class PauseGame : MonoBehaviour {
     public void QuitGame()
     {
         Application.Quit();
-        Debug.Log("Player pressed quit");
+        //Debug.Log("Player pressed quit");
     }
 }
